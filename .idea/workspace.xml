@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3772c2e-e1b8-4efb-9022-55c4e4de03cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Pessoa/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Program/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/ContaBancaria/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Program/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Produto/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Program/Program.java" afterDir="false" />
+    <list default="true" id="e3772c2e-e1b8-4efb-9022-55c4e4de03cc" name="Changes" comment="git commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Carro/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Pessoa/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/ContaBancaria/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Pessoa/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Program/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/ContaBancaria/ContaBancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/Program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Program/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio3/Produto/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio3/Program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Program/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +31,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Luiz-Mariz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Luiz-Mariz/GettersAndSetters.git",
+    "accountId": "acd4ea32-db95-4f81-99ab-f972cc609e93"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2uEWHDnHP2yreXSAOSXQHuMkMZh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Exercicio1.Program.Program.executor": "Run",
+    "Application.Exercicio2.Program.Program.executor": "Run",
     "Application.Program.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -52,7 +67,7 @@
     "onboarding.tips.debug.path": "C:/Users/Aluno_Noite/IdeaProjects/JavaNoite/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercicio2.Program.Program">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Exercicio1.Program.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio1.Program.Program" />
       <module name="JavaNoite" />
@@ -94,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.Exercicio2.Program.Program" />
         <item itemvalue="Application.Exercicio1.Program.Program" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +124,20 @@
       <option name="presentableId" value="Default" />
       <updated>1741814123713</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit">
+      <option name="closed" value="true" />
+      <created>1741816236348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741816236348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -119,7 +147,17 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Exercicio2/Program/Program.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaNoite$Exercicio2_Program_Program.ic" NAME="Exercicio2.Program.Program Coverage Results" MODIFIED="1741825205028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Exercicio2.Program.*</FILTER>
+    </SUITE>
   </component>
 </project>

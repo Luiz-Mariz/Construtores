@@ -1,6 +1,6 @@
 package Exercicio3.Program;
 
-import Exercicio3.Produto.Produto;
+import Exercicio3.ContaBancaria.ContaBancaria;
 
 import java.util.Scanner;
 
@@ -8,23 +8,20 @@ public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Produto produto = new Produto();
 
-        System.out.print("Infore o nome do produto: ");
-        produto.setName(sc.nextLine());
+        System.out.print("Informe seu titular: ");
+        String titular = sc.next();
 
-        System.out.print("Informe o preço: ");
-        produto.setPreco(sc.nextDouble());
+        System.out.print("Informe seu saldo: ");
+        double saldo = sc.nextDouble();
 
-        System.out.print("Adicionar no estoque: ");
-        produto.addStock(sc.nextInt());
+        System.out.print("Insira seu tipo de conta: ");
+        String tipoConta = sc.next();
 
-        System.out.print("Remover no estoque: ");
-        produto.removeStock(sc.nextInt());
 
-        System.out.println();
-        System.out.println("Nome Produto: " + produto.getName());
-        System.out.println("Preço Produto: R$" + produto.getPreco());
-        System.out.println("Quantidade Estoque: " + produto.getEstoque());
+        ContaBancaria contaBancaria = new ContaBancaria(titular, saldo, tipoConta);
+        System.out.println(contaBancaria.toString());
+        ContaBancaria contaBancaria1 = new ContaBancaria(titular);
+        System.out.println(contaBancaria1.toString());
     }
 }
